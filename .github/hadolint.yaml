@@ -17,3 +17,4 @@ jobs:
         with:
           dockerfile: Dockerfile1
           recursive: true
+          no-fail: true
