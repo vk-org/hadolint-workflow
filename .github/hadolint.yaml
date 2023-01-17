@@ -1,9 +1,7 @@
 name: "Hadolint"
 
 on:
-  pull_request:
-    paths:
-      - '**/Dockerfile'
+  push
   
 jobs:
   lint_dockerfile:
