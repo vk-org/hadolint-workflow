@@ -1,0 +1,19 @@
+name: "Hadolint"
+
+on:
+  pull_request
+  
+jobs:
+  lint_dockerfile:
+    name: "Linting of Dockerfile"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout code"
+        uses: actions/checkout@v3
+
+      - name: "Lint Dockerfile by Hadolint"
+        uses: hadolint/hadolint-action@v2.0.0
+        with:
+          dockerfile: Dockerfile
+          recursive: true
