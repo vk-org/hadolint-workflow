@@ -17,4 +17,4 @@ jobs:
         with:
           dockerfile: Dockerfile
           recursive: true
-          no-fail: true
+          no-fail: false
