@@ -18,3 +18,4 @@ jobs:
           dockerfile: Dockerfile
           recursive: true
           no-fail: false
+          results-to-console: false
