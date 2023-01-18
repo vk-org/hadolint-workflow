@@ -15,6 +15,6 @@ jobs:
       - name: "Lint Dockerfile by Hadolint"
         uses: hadolint/hadolint-action@v3.1.0
         with:
-          dockerfile: Dockerfile1
+          dockerfile: Dockerfile
           recursive: true
           no-fail: true
