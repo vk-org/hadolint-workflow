@@ -6,7 +6,7 @@ on:
 jobs:
   lint_dockerfile:
     name: "Linting of Dockerfile"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-222.04
 
     steps:
       - name: "Checkout code"
